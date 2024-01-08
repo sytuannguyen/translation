@@ -20,5 +20,5 @@ def main():
 
 		st.success(output_text)
 	
-if __name__ == __main__():
+if __name__ == "__main__":
 	main()
