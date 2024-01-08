@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import MarianTokenizer, MarianMTModel
 
 def main():
-	st.Title('French to English tranlation, by Dr Tuan Nguyen-Sy')
+	st.title('French to English tranlation, by Dr Tuan Nguyen-Sy')
 
 	input_text = st.text_input('Enter a sentense in French here','La vie est belle')
 
