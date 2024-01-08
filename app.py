@@ -5,8 +5,8 @@ tokenizer = MarianTokenizer.from_pretrained(model_name)
 model = MarianMTModel.from_pretrained(model_name)
 
 def main():
-	st.title('French to English tranlation, by Dr Tuan Nguyen-Sy')
-
+	st.title('French to English tranlation')
+	st.subheader('by Dr. Sy Tuan NGUYEN')
 	input_text = st.text_input('Enter a sentense in French here','La vie est belle')
 
 	if st.button('Translate'):
