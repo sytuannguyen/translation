@@ -6,7 +6,7 @@ def main():
 
 	input_text = st.text_input('Enter a sentense in French here','La vie est belle')
 
-	st.button('Translate'):
+	if st.button('Translate'):
 		st.text('Translating ...')
 		
 		model_name = 'Helsinki-NLP/opus-mt-fr-en'
